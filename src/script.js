@@ -2,7 +2,7 @@ const SLOTS_PER_REEL = 12;
 // radius = Math.round( ( panelWidth / 2) / Math.tan( Math.PI / SLOTS_PER_REEL ) ); 
 // current settings give a value of 149, rounded to 150
 const REEL_RADIUS = 150;
-
+//
 function createSlots (ring) {
 	
 	var slotAngle = 360 / SLOTS_PER_REEL;
